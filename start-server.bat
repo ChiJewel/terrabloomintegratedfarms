@@ -6,5 +6,6 @@ echo Location: Plot 1-6 Freedom Way, Lagos-Ibadan Expressway
 echo ========================================================
 echo.
 start http://localhost:3000/
-node server.js
+node scripts/local-server.js
 pause
+

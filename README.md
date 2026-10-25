@@ -82,7 +82,9 @@ All generated brand assets are organized in the `assets/` folder:
 ### Option 1: Using the Built-In Node Server (Running)
 The website is currently hosted locally on port 3000:
 ```bash
-node server.js
+npm start
+# or
+node scripts/local-server.js
 ```
 Open your browser to: **[http://localhost:3000/](http://localhost:3000/)**
 
