@@ -1,0 +1,20 @@
+{
+  "name": "terrabloom-integrated-farms",
+  "version": "1.0.0",
+  "description": "Official Web Platform for TerraBloom Integrated Farms - Plot 1-6 Freedom Way, Lagos-Ibadan Expressway, Nigeria",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo 'Static production assets ready for Vercel CDN deployment'"
+  },
+  "keywords": [
+    "terrabloom",
+    "integrated-farms",
+    "nigeria",
+    "agriculture",
+    "agribusiness"
+  ],
+  "author": "TerraBloom Integrated Farms Ltd.",
+  "license": "ISC"
+}

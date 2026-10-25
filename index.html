@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- SEO & Brand Metadata -->
+  <title>TerraBloom Integrated Farms | Premium Corporate Agribusiness Nigeria</title>
+  <meta name="description" content="TerraBloom Integrated Farms is an international-standard integrated agribusiness in Nigeria spanning crops, greenhouse vegetables, commercial poultry, and livestock ranching. Located at Plot 1-6 Freedom Way, Lagos-Ibadan Expressway.">
+  <meta name="keywords" content="TerraBloom Integrated Farms, Nigeria agriculture, Lagos-Ibadan expressway farm, greenhouse vegetables Lagos, commercial poultry Nigeria, livestock cattle Ogun, fresh produce wholesale Nigeria">
+  <meta name="author" content="TerraBloom Integrated Farms Ltd.">
+  
+  <!-- Mobile & PWA Optimization -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="TerraBloom">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="apple-touch-icon" href="assets/logo.png">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="TerraBloom Integrated Farms | Premium Corporate Agribusiness">
+  <meta property="og:description" content="Commercial crops, greenhouse vegetables, bio-secure poultry, and livestock ranching along the Lagos-Ibadan corridor. Feeding nations with international excellence.">
+  <meta property="og:image" content="assets/logo.png">
+  <meta name="theme-color" content="#0D2E1F">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="TerraBloom Integrated Farms | Premium Corporate Agribusiness">
+  <meta name="twitter:description" content="Commercial crops, greenhouse vegetables, bio-secure poultry, and livestock ranching along the Lagos-Ibadan corridor.">
+  <meta name="twitter:image" content="assets/logo.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo.png">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Cinzel -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cinzel:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       Top Announcement & Live Operations Bar
+       ========================================================================== -->
+  <div class="announcement-bar">
+    <div class="container announcement-inner">
+      <div class="status-live">
+        <span class="pulse-dot"></span>
+        <span><strong>Growing Nature. Raising Quality.</strong> • 2026 Harvest Active • Express Logistics across Lagos & Ogun</span>
+      </div>
+      <div class="announcement-actions">
+        <a href="tel:+234800837722" class="announcement-link">
+          <i class="fa-solid fa-phone"></i> +234 (0) 800-TERRABLOOM
+        </a>
+        <a href="#location" class="announcement-link">
+          <i class="fa-solid fa-location-dot"></i> Plot 1-6 Freedom Way, Lagos-Ibadan Exp.
+        </a>
+        <a href="#catalog" class="announcement-link text-gold">
+          <i class="fa-solid fa-file-invoice-dollar"></i> Wholesale RFQ Portal
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       Luxury Sticky Header & Navigation
+       ========================================================================== -->
+  <header class="header-wrapper" id="headerWrapper">
+    <div class="container header-inner">
+      <!-- Brand Logo -->
+      <a href="#" class="brand-logo-wrap" aria-label="TerraBloom Integrated Farms - Growing Nature. Raising Quality.">
+        <img src="assets/logo.png" alt="TerraBloom Integrated Farms - Growing Nature. Raising Quality." class="brand-logo-img">
+        <div class="brand-tagline-pill">
+          <span class="motto-tag">Growing Nature. Raising Quality.</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="#about" class="nav-link">About Us</a>
+        <a href="#divisions" class="nav-link">Core Divisions</a>
+        <a href="#catalog" class="nav-link">Produce Catalog</a>
+        <a href="#calculator" class="nav-link">Fees Calculator</a>
+        <a href="#sustainability" class="nav-link">AgriTech & ESG</a>
+        <a href="#location" class="nav-link">Location & Hub</a>
+        <a href="#contact" class="nav-link">Contact Desk</a>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <!-- RFQ Cart Trigger Button -->
+        <button class="rfq-cart-btn trigger-rfq-modal" aria-label="View Quotation Cart" title="View Wholesale Quotation Cart">
+          <i class="fa-solid fa-receipt"></i>
+          <span class="cart-count-badge" id="rfqCartCount" style="display: none;">0</span>
+        </button>
+
+        <!-- Bulk Request CTA -->
+        <a href="#catalog" class="btn btn-primary btn-sm d-none-mobile">
+          <i class="fa-solid fa-leaf"></i> Bulk Order / RFQ
+        </a>
+
+        <!-- Mobile Drawer Toggle Hamburger -->
+        <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation drawer">
+          <span class="toggle-bar"></span>
+          <span class="toggle-bar"></span>
+          <span class="toggle-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       Mobile Slide-out Navigation Drawer
+       ========================================================================== -->
+  <div class="mobile-drawer-overlay" id="mobileDrawerOverlay"></div>
+  <aside class="mobile-drawer" id="mobileDrawer" aria-label="Mobile Navigation Drawer">
+    <div class="drawer-header">
+      <div class="brand-logo-wrap">
+        <img src="assets/logo.png" alt="TerraBloom Integrated Farms" style="height: 48px; border-radius: var(--radius-xs);">
+      </div>
+      <button class="drawer-close-btn" id="drawerCloseBtn" aria-label="Close menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <div class="drawer-body">
+      <ul class="drawer-nav-list">
+        <li class="drawer-nav-item">
+          <a href="#about"><i class="fa-solid fa-circle-info"></i> About TerraBloom</a>
+        </li>
+        <li class="drawer-nav-item">
+          <a href="#divisions"><i class="fa-solid fa-layer-group"></i> Core Farm Divisions</a>
+        </li>
+        <li class="drawer-nav-item">
+          <a href="#catalog"><i class="fa-solid fa-basket-shopping"></i> Wholesale Produce Catalog</a>
+        </li>
+        <li class="drawer-nav-item">
+          <a href="#calculator"><i class="fa-solid fa-calculator"></i> Agribusiness Fees Calculator</a>
+        </li>
+        <li class="drawer-nav-item">
+          <a href="#sustainability"><i class="fa-solid fa-solar-panel"></i> AgriTech & Sustainability</a>
+        </li>
+        <li class="drawer-nav-item">
+          <a href="#location"><i class="fa-solid fa-map-location-dot"></i> Expressway Location & Logistics</a>
+        </li>
+        <li class="drawer-nav-item">
+          <a href="#contact"><i class="fa-solid fa-envelope-open-text"></i> Book Visit & Inquiries</a>
+        </li>
+      </ul>
+
+      <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+        <button class="btn btn-gold trigger-rfq-modal" style="width: 100%;">
+          <i class="fa-solid fa-receipt"></i> Wholesale RFQ Basket (<span id="mobileCartCount">0</span>)
+        </button>
+        <a href="https://wa.me/2348033333333?text=Hello%20TerraBloom%20Integrated%20Farms,%20I%20would%20like%20to%20make%20a%20wholesale%20produce%20inquiry." class="btn btn-primary" style="width: 100%;" target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp" style="color: #25D366; font-size: 1.2rem;"></i> WhatsApp Sales Desk
+        </a>
+      </div>
+
+      <div class="drawer-contact-card">
+        <div class="drawer-contact-title">Executive Farm Office</div>
+        <div class="drawer-contact-line">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Plot 1-6 Freedom Way, Off Lagos-Ibadan Expressway, Nigeria</span>
+        </div>
+        <div class="drawer-contact-line">
+          <i class="fa-solid fa-phone"></i>
+          <span>+234 (0) 800-TERRABLOOM</span>
+        </div>
+        <div class="drawer-contact-line">
+          <i class="fa-solid fa-clock"></i>
+          <span>Mon – Sat: 07:00 AM – 06:00 PM</span>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       Hero Section (Cinematic Agricultural Estate)
+       ========================================================================== -->
+  <section class="hero-section" id="hero">
+    <img src="assets/hero-farm.png" alt="TerraBloom Integrated Farms Estate Aerial" class="hero-background-image" onerror="this.onerror=null; this.src='assets/harvest-distribution.png';">
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+      <div class="hero-tagline">
+        <i class="fa-solid fa-award"></i>
+        <span>Growing Nature. Raising Quality. • Lagos-Ibadan Agribusiness Corridor</span>
+      </div>
+
+      <h1 class="hero-title">
+        Pioneering Sustainable Agriculture. <br>
+        <span class="gold-gradient-text">Feeding Nations with Excellence.</span>
+      </h1>
+
+      <p class="hero-description">
+        Positioned strategically along the premier Lagos-Ibadan agricultural corridor at Plot 1-6 Freedom Way, TerraBloom Integrated Farms is dedicated to <em>Growing Nature. Raising Quality.</em>—uniting high-tech greenhouse horticulture, commercial crop production, ethical poultry, and world-class livestock ranching into a seamless, bio-secure food ecosystem.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#divisions" class="btn btn-gold">
+          <i class="fa-solid fa-compass"></i> Explore Farm Divisions
+        </a>
+        <a href="#catalog" class="btn btn-outline-white">
+          <i class="fa-solid fa-list-check"></i> Wholesale Price List & RFQ
+        </a>
+        <a href="https://wa.me/2348033333333?text=Hello%20TerraBloom%20Farms,%20I%20am%20interested%20in%20partnering%20or%20procuring%20wholesale%20farm%20produce." target="_blank" rel="noopener" class="btn btn-outline-white" style="border-color: rgba(37, 211, 102, 0.6); color: #86EFAC;">
+          <i class="fa-brands fa-whatsapp" style="color: #25D366;"></i> Instant WhatsApp Desk
+        </a>
+      </div>
+
+      <!-- Real-Time Impact Metric Strip -->
+      <div class="hero-stats-grid">
+        <div class="stat-item">
+          <div class="stat-number">1,200<span>+</span></div>
+          <div class="stat-label">Acres Under Cultivation & Greenhouses</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">60,000<span>+</span></div>
+          <div class="stat-label">Daily Fresh Table Eggs & Broiler Output</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">100<span>%</span></div>
+          <div class="stat-label">Bio-Secure & Traceable Livestock</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">2-4<span>hrs</span></div>
+          <div class="stat-label">Cold-Chain Delivery to Lagos & Ibadan</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Trust & Corporate Accreditation Banner
+       ========================================================================== -->
+  <section class="trust-strip">
+    <div class="container trust-items">
+      <div class="trust-pillar">
+        <div class="trust-icon-box"><i class="fa-solid fa-shield-halved"></i></div>
+        <div>NAFDAC & Ministry of Agriculture Standards</div>
+      </div>
+      <div class="trust-pillar">
+        <div class="trust-icon-box"><i class="fa-solid fa-temperature-arrow-down"></i></div>
+        <div>100% Solar-Powered Cold Chain Logistics</div>
+      </div>
+      <div class="trust-pillar">
+        <div class="trust-icon-box"><i class="fa-solid fa-recycle"></i></div>
+        <div>Zero-Waste Circular Bio-Economy</div>
+      </div>
+      <div class="trust-pillar">
+        <div class="trust-icon-box"><i class="fa-solid fa-truck-fast"></i></div>
+        <div>Direct Expressway Arterial Transport</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       About TerraBloom Integrated Farms (Corporate Standard & Vision)
+       ========================================================================== -->
+  <section class="about-section" id="about">
+    <div class="container about-grid">
+      <div class="about-media-stack">
+        <div class="about-main-image-wrap">
+          <img src="assets/crops-vegetables.png" alt="TerraBloom Lead Nigerian Agronomist inspecting high-tech greenhouse and outdoor crop cultivation" class="about-main-image" loading="lazy" onerror="this.onerror=null; this.src='assets/hero-farm.png';">
+          <div class="about-image-caption-pill">
+            <i class="fa-solid fa-seedling"></i>
+            <span>Greenhouse & Outdoor Integrated Agronomy</span>
+          </div>
+        </div>
+
+        <div class="about-inset-outdoor-card">
+          <img src="assets/hero-farm.png" alt="1,200+ Acres Outdoor Mechanized Crops" class="about-inset-img" loading="lazy">
+          <div class="about-inset-meta">
+            <span class="inset-tag">Outdoor Cultivation</span>
+            <span class="inset-title">1,200+ Acres Mechanized Fields</span>
+          </div>
+        </div>
+
+        <div class="about-badge-card">
+          <div class="num">Plot 1-6</div>
+          <div class="desc">Freedom Way, Lagos-Ibadan Expressway. Nigeria's premier agri-logistics corridor.</div>
+        </div>
+      </div>
+
+      <div>
+        <span class="section-badge"><i class="fa-solid fa-seedling"></i> About TerraBloom</span>
+        <h2 class="section-title">An International Agribusiness Built for Modern Africa</h2>
+        <p class="section-subtitle" style="margin-left: 0; margin-right: 0;">
+          TerraBloom Integrated Farms was established with a singular corporate conviction: to elevate Nigerian agriculture to global industrial standards through precision technology, sustainable stewardship, and integrated value chains.
+        </p>
+
+        <div class="about-highlights-list">
+          <div class="about-highlight-card">
+            <i class="fa-solid fa-sun-plant-wilt"></i>
+            <h4>High-Tech Greenhouses</h4>
+            <p>Climate-controlled poly-houses shielding high-value vegetables from pests, extreme heat, and tropical downpours.</p>
+          </div>
+          <div class="about-highlight-card">
+            <i class="fa-solid fa-dna"></i>
+            <h4>Certified Agronomy</h4>
+            <p>Pure hybrid seeds and certified veterinary bloodlines ensuring optimal yield, nutritional density, and food safety.</p>
+          </div>
+          <div class="about-highlight-card">
+            <i class="fa-solid fa-arrows-spin"></i>
+            <h4>Zero-Waste Bio-Loop</h4>
+            <p>Poultry & cattle manure is converted into organic fertilizer for crops; crop residues are formulated into animal silage.</p>
+          </div>
+          <div class="about-highlight-card">
+            <i class="fa-solid fa-handshake-angle"></i>
+            <h4>Community AgTech Hub</h4>
+            <p>Empowering local youth and women farmers with technical modern agronomy training and outgrower contracts.</p>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+          <a href="#divisions" class="btn btn-primary">
+            Explore All 4 Divisions <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            Schedule an Executive Visit
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Integrated Farm Divisions (Tabs & Showcases)
+       ========================================================================== -->
+  <section class="divisions-section" id="divisions">
+    <div class="container">
+      <div class="text-center" style="margin-bottom: 2.5rem;">
+        <span class="section-badge"><i class="fa-solid fa-cubes"></i> Comprehensive Operations</span>
+        <h2 class="section-title">Four Integrated Agricultural Pillars</h2>
+        <p class="section-subtitle">
+          Our integrated design creates biological synergies between crops, horticulture, poultry, and livestock—maximizing resource efficiency and product freshness.
+        </p>
+      </div>
+
+      <!-- Division Switcher Tabs -->
+      <div class="divisions-tab-nav" role="tablist">
+        <button class="division-tab-btn active" data-division="vegetables">
+          <i class="fa-solid fa-pepper-hot"></i> 1. Greenhouse Horticulture
+        </button>
+        <button class="division-tab-btn" data-division="crops">
+          <i class="fa-solid fa-wheat-awn"></i> 2. Crops & Field Grains
+        </button>
+        <button class="division-tab-btn" data-division="poultry">
+          <i class="fa-solid fa-feather"></i> 3. Commercial Poultry
+        </button>
+        <button class="division-tab-btn" data-division="livestock">
+          <i class="fa-solid fa-cow"></i> 4. Livestock & Ranching
+        </button>
+        <button class="division-tab-btn" data-division="logistics">
+          <i class="fa-solid fa-snowflake"></i> 5. Cold-Chain & Processing
+        </button>
+      </div>
+
+      <!-- Division 1: Greenhouse Horticulture -->
+      <div class="division-pane active" id="pane-vegetables">
+        <div class="division-card-hero">
+          <div class="division-media">
+            <img src="assets/crops-vegetables.png" alt="Greenhouse Vegetables" class="division-img" loading="lazy" onerror="this.onerror=null; this.src='assets/hero-farm.png';">
+            <div class="division-badge-float">Precision Horticulture</div>
+          </div>
+          <div class="division-info">
+            <span class="section-badge" style="width: fit-content;"><i class="fa-solid fa-leaf"></i> Division 01</span>
+            <h3 class="division-title">High-Tech Greenhouse Horticulture</h3>
+            <p class="division-lead">
+              Our advanced Dutch-style greenhouse complexes produce year-round harvest of export-grade vegetables with zero synthetic soil degradation and precise drip fertigation.
+            </p>
+            <div class="division-features-list">
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Sweet Bell Peppers (Red, Yellow, Orange)</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Dutch Vine Plum & Beefsteak Tomatoes</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> English Seedless Cucumbers</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Fresh Habanero & Scotch Bonnet Peppers</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Organic Hydroponic Butterhead Lettuce</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Culinary Fresh Herbs (Basil, Mint, Rosemary)</div>
+            </div>
+            <div>
+              <a href="#catalog" class="btn btn-primary btn-sm">Order Wholesale Produce</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Division 2: Crops & Field Grains -->
+      <div class="division-pane" id="pane-crops">
+        <div class="division-card-hero">
+          <div class="division-media">
+            <img src="assets/hero-farm.png" alt="Commercial Field Crops" class="division-img" loading="lazy" onerror="this.onerror=null; this.src='assets/crops-vegetables.png';">
+            <div class="division-badge-float">Industrial Scale Cultivation</div>
+          </div>
+          <div class="division-info">
+            <span class="section-badge" style="width: fit-content;"><i class="fa-solid fa-wheat-awn"></i> Division 02</span>
+            <h3 class="division-title">Commercial Crops & Field Grains</h3>
+            <p class="division-lead">
+              Spanning expansive mechanized acreage with automated center-pivot irrigation, we produce high-yield staples that feed food processors, breweries, and feed-millers across West Africa.
+            </p>
+            <div class="division-features-list">
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> High-Protein Yellow & White Hybrid Maize</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Premium Non-GMO Soybeans</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Industrial High-Starch Cassava Cultivation</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Sorghum & Millet for Brewery & Food Use</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Automated Grain Moisture Testing & Silos</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Aflatoxin-Free Certified Storage Protocol</div>
+            </div>
+            <div>
+              <a href="#catalog" class="btn btn-primary btn-sm">Procure Grain Silo Contracts</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Division 3: Commercial Poultry -->
+      <div class="division-pane" id="pane-poultry">
+        <div class="division-card-hero">
+          <div class="division-media">
+            <img src="assets/poultry-livestock.png" alt="Commercial Poultry Division" class="division-img" loading="lazy" onerror="this.onerror=null; this.src='assets/hero-farm.png';">
+            <div class="division-badge-float">Automated & Bio-Secure</div>
+          </div>
+          <div class="division-info">
+            <span class="section-badge" style="width: fit-content;"><i class="fa-solid fa-feather"></i> Division 03</span>
+            <h3 class="division-title">Commercial Bio-Secure Poultry</h3>
+            <p class="division-lead">
+              Our computerized, tunnel-ventilated poultry complexes operate under strict veterinary quarantine protocols, producing premium protein without non-therapeutic antibiotics.
+            </p>
+            <div class="division-features-list">
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> 60,000+ Daily Fresh Table Eggs (Jumbo & Large)</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Blast-Frozen Dressed Whole Broilers (1.8kg – 2.2kg)</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Fresh Cut Chicken Portions (Breasts, Thighs, Wings)</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> High-Yield Ross 308 & Cobb 500 Day-Old Chicks</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Automated Nipple Drinkers & Feed Distribution</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Pelletized Organic Manure Fertilizer Byproduct</div>
+            </div>
+            <div>
+              <a href="#catalog" class="btn btn-primary btn-sm">Request Wholesale Poultry Quotation</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Division 4: Livestock & Ranching -->
+      <div class="division-pane" id="pane-livestock">
+        <div class="division-card-hero">
+          <div class="division-media">
+            <img src="assets/poultry-livestock.png" alt="Livestock and Cattle Ranching" class="division-img" loading="lazy" onerror="this.onerror=null; this.src='assets/hero-farm.png';">
+            <div class="division-badge-float">Pedigree Genetics & Ranching</div>
+          </div>
+          <div class="division-info">
+            <span class="section-badge" style="width: fit-content;"><i class="fa-solid fa-cow"></i> Division 04</span>
+            <h3 class="division-title">Livestock Ranching & Dairy Genetics</h3>
+            <p class="division-lead">
+              Combining world-class ruminant husbandry with nutritious rotational pastures, our livestock unit produces prime beef cattle, breeding goats, and dairy animals.
+            </p>
+            <div class="division-features-list">
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Boran & Friesian Cross Beef Cattle (380kg – 500kg)</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> South African Boer Goats & Breeding Bucks</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Pasture-Grazed West African Dwarf Sheep</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Humane Abattoir & Cold Carcass Transportation</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Complete Radio-Frequency (RFID) Ear Tag Tracking</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Certified Veterinary Inoculation Passports</div>
+            </div>
+            <div>
+              <a href="#catalog" class="btn btn-primary btn-sm">Inquire on Livestock Supply</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Division 5: Cold-Chain & Processing -->
+      <div class="division-pane" id="pane-logistics">
+        <div class="division-card-hero">
+          <div class="division-media">
+            <img src="assets/harvest-distribution.png" alt="Cold Chain Distribution" class="division-img" loading="lazy" onerror="this.onerror=null; this.src='assets/hero-farm.png';">
+            <div class="division-badge-float">Express Corridor Delivery</div>
+          </div>
+          <div class="division-info">
+            <span class="section-badge" style="width: fit-content;"><i class="fa-solid fa-snowflake"></i> Division 05</span>
+            <h3 class="division-title">Cold-Chain Storage & Express Distribution</h3>
+            <p class="division-lead">
+              Strategically based along Plot 1-6 Freedom Way on the Lagos-Ibadan Expressway, our solar-powered sorting and refrigeration hub guarantees unbroken cold-chain supply directly into metropolitan Lagos, Ogun, and export hubs.
+            </p>
+            <div class="division-features-list">
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Multi-Temperature Controlled Cold Hubs (-18°C to +4°C)</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Vacuum-Sealed & Modified Atmosphere Packaging</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Dedicated Fleet of Temperature-Monitored Reefer Trucks</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Same-Day Delivery to Supermarkets & Hospitality</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Export Palletization for Air & Sea Freight</div>
+              <div class="division-feature-item"><i class="fa-solid fa-check-circle"></i> Real-Time GPS & Temperature Telemetry</div>
+            </div>
+            <div>
+              <a href="#contact" class="btn btn-primary btn-sm">Connect with Distribution Logistics</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Wholesale Produce Catalog & Interactive Quote Builder
+       ========================================================================== -->
+  <section class="catalog-section" id="catalog">
+    <div class="container">
+      <div class="text-center" style="margin-bottom: 2rem;">
+        <span class="section-badge"><i class="fa-solid fa-store"></i> B2B & Wholesale Orders</span>
+        <h2 class="section-title">Fresh Harvest & Supply Catalog</h2>
+        <p class="section-subtitle">
+          Direct-from-farm pricing for supermarket chains, institutional caterers, food processors, hospitality leaders, and export merchants.
+        </p>
+      </div>
+
+      <!-- Currency Switcher -->
+      <div class="currency-toggle-wrapper">
+        <span>Display Currency:</span>
+        <button class="currency-toggle-btn active" data-currency="NGN">₦ NGN (Naira)</button>
+        <button class="currency-toggle-btn" data-currency="USD">$ USD (Export)</button>
+      </div>
+
+      <!-- Catalog Filter Tabs -->
+      <div class="catalog-filter-bar">
+        <button class="catalog-filter-btn active" data-filter="all">All Products & Services</button>
+        <button class="catalog-filter-btn" data-filter="vegetables">Greenhouse Vegetables</button>
+        <button class="catalog-filter-btn" data-filter="tubers">Fresh Tubers & Roots</button>
+        <button class="catalog-filter-btn" data-filter="poultry">Poultry & Eggs</button>
+        <button class="catalog-filter-btn" data-filter="chicks">Day-Old & Brooded Chicks</button>
+        <button class="catalog-filter-btn" data-filter="livestock">Livestock & Cattle</button>
+        <button class="catalog-filter-btn" data-filter="grains">Field Grains</button>
+        <button class="catalog-filter-btn" data-filter="seeds">Improved Seeds & Inputs</button>
+        <button class="catalog-filter-btn" data-filter="services">Farm & Advisory Services</button>
+      </div>
+
+      <!-- Dynamic Product Cards Grid -->
+      <div class="products-grid" id="productsGrid">
+        <!-- Rendered by JavaScript for fast interactions -->
+      </div>
+
+      <!-- Floating RFQ Notification Banner -->
+      <div style="margin-top: 3.5rem; background: var(--primary-soft); border: 1px solid rgba(13, 46, 31, 0.15); border-radius: var(--radius-lg); padding: 2rem; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.5rem;">
+        <div>
+          <h3 style="font-size: 1.3rem; font-weight: 800; color: var(--primary);">Need Customized Contract Farming or Large Export Tonnes?</h3>
+          <p style="font-size: 0.9rem; color: var(--text-body); margin-top: 0.25rem;">
+            We execute supply agreements with guaranteed off-take pricing and dedicated planting acreage.
+          </p>
+        </div>
+        <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+          <button class="btn btn-gold trigger-rfq-modal">
+            <i class="fa-solid fa-receipt"></i> Review Quotation Basket
+          </button>
+          <a href="https://wa.me/2348033333333?text=Hello%20TerraBloom,%20we%20require%20a%20formal%20custom%20supply%20agreement%20for%20our%20enterprise." target="_blank" rel="noopener" class="btn btn-primary">
+            <i class="fa-brands fa-whatsapp"></i> Chat with Sales Director
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Interactive Agribusiness Fees & Multi-Object Cost Calculator
+       ========================================================================== -->
+  <section class="calculator-section" id="calculator">
+    <div class="container">
+      <div class="text-center" style="margin-bottom: 2.5rem;">
+        <span class="section-badge"><i class="fa-solid fa-calculator"></i> Real-Time Fee Estimator</span>
+        <h2 class="section-title">Agribusiness Fees & Quotation Calculator</h2>
+        <p class="section-subtitle">
+          Instant transparent cost modeling for produce orders, cold-chain reefer haulage, refrigerated storage vaults, livestock processing, and farm mechanization.
+        </p>
+      </div>
+
+      <!-- Currency Switcher Bar -->
+      <div class="calculator-currency-bar">
+        <div class="calc-currency-label">
+          <i class="fa-solid fa-coins" style="color: var(--gold-primary);"></i>
+          <span>Pricing & Quoting Currency:</span>
+        </div>
+        <div class="currency-toggle-wrapper" style="margin-bottom: 0;">
+          <button class="currency-toggle-btn active calc-curr-btn" data-currency="NGN">₦ NGN (Naira)</button>
+          <button class="currency-toggle-btn calc-curr-btn" data-currency="USD">$ USD (Forex / Export)</button>
+        </div>
+      </div>
+
+      <!-- Calculator Category Tabs -->
+      <div class="calculator-nav-tabs" role="tablist" id="calcCategoryTabs">
+        <button class="calc-tab-btn active" data-cat="produce" role="tab" aria-selected="true">
+          <i class="fa-solid fa-wheat-awn"></i>
+          <span>1. Produce & Harvest</span>
+        </button>
+        <button class="calc-tab-btn" data-cat="logistics" role="tab" aria-selected="false">
+          <i class="fa-solid fa-truck-fast"></i>
+          <span>2. Cold-Chain Haulage</span>
+        </button>
+        <button class="calc-tab-btn" data-cat="storage" role="tab" aria-selected="false">
+          <i class="fa-solid fa-snowflake"></i>
+          <span>3. Cold Storage & Silos</span>
+        </button>
+        <button class="calc-tab-btn" data-cat="livestock" role="tab" aria-selected="false">
+          <i class="fa-solid fa-cow"></i>
+          <span>4. Livestock & Abattoir</span>
+        </button>
+        <button class="calc-tab-btn" data-cat="services" role="tab" aria-selected="false">
+          <i class="fa-solid fa-tractor"></i>
+          <span>5. Farm & Advisory Services</span>
+        </button>
+      </div>
+
+      <!-- Calculator Main Interactive Container -->
+      <div class="calculator-card-wrapper">
+        <!-- Left: Interactive Form Controls -->
+        <div class="calculator-form-panel">
+          <div class="calc-panel-header">
+            <div class="calc-category-badge" id="calcCategoryBadge">Produce & Bulk Harvest</div>
+            <p class="calc-category-desc" id="calcCategoryDesc">Configure harvest procurement volume, custom grading, export palletizing, and bulk quantity tier rebates.</p>
+          </div>
+
+          <!-- Object Selector -->
+          <div class="calc-form-group">
+            <label class="calc-label" for="calcObjectSelect">
+              <i class="fa-solid fa-box-open"></i> Select Agricultural Object / Commodity:
+            </label>
+            <select id="calcObjectSelect" class="calc-select form-control">
+              <!-- Options populated dynamically based on category -->
+            </select>
+          </div>
+
+          <!-- Quantity / Scope Slider & Input -->
+          <div class="calc-form-group" id="calcQuantityGroup">
+            <div class="calc-qty-header">
+              <label class="calc-label" for="calcQtyInput">
+                <i class="fa-solid fa-scale-balanced"></i> Volume / Scale (<span id="calcUnitLabel">crates</span>):
+              </label>
+              <div class="calc-qty-input-wrap">
+                <button type="button" class="calc-step-btn" id="calcQtyDecBtn" aria-label="Decrease quantity">-</button>
+                <input type="number" id="calcQtyInput" class="calc-qty-input" min="1" max="1000" step="1" value="50">
+                <button type="button" class="calc-step-btn" id="calcQtyIncBtn" aria-label="Increase quantity">+</button>
+              </div>
+            </div>
+            <input type="range" id="calcQtyRange" class="calc-range-slider" min="1" max="1000" step="1" value="50">
+            <div class="calc-range-limits">
+              <span id="calcRangeMin">Min: 1</span>
+              <span id="calcRangeCurrent">Current: 50</span>
+              <span id="calcRangeMax">Max: 1000</span>
+            </div>
+          </div>
+
+          <!-- Dynamic Options / Add-ons Container -->
+          <div class="calc-dynamic-options" id="calcDynamicOptions">
+            <!-- Dynamic dropdowns, radios, and checkboxes inserted based on selected category & object -->
+          </div>
+
+          <!-- Statutory VAT Compliance Toggle -->
+          <div class="calc-tax-toggle-wrap">
+            <label class="calc-checkbox-label">
+              <input type="checkbox" id="calcVatToggle" checked>
+              <span class="calc-checkbox-custom"></span>
+              <span class="calc-checkbox-text">
+                Include Statutory Corporate VAT (7.5%)
+                <small class="d-block text-muted">Required for formal corporate tax invoices; waived for direct farm-gate cash off-take.</small>
+              </span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Right: Live Quotation Summary Receipt -->
+        <div class="calculator-receipt-panel">
+          <div class="receipt-header">
+            <div class="receipt-brand">
+              <i class="fa-solid fa-receipt receipt-icon"></i>
+              <div>
+                <h4 class="receipt-title">Live Fee Estimate Receipt</h4>
+                <span class="receipt-subtitle">TerraBloom Official Cost Engine • <span id="receiptTimestamp">Live</span></span>
+              </div>
+            </div>
+            <span class="receipt-live-pill"><span class="pulse-dot"></span> Active</span>
+          </div>
+
+          <div class="receipt-object-summary" id="receiptObjectSummary">
+            <!-- Summary card showing object name, unit price, and specs -->
+          </div>
+
+          <!-- Breakdown Line Items -->
+          <div class="receipt-line-items" id="receiptLineItems">
+            <!-- Computed breakdown line items inserted dynamically -->
+          </div>
+
+          <!-- Totals Bar -->
+          <div class="receipt-totals-box">
+            <div class="receipt-subtotal-row">
+              <span>Gross Subtotal:</span>
+              <span id="receiptGrossTotal">₦0</span>
+            </div>
+            <div class="receipt-discount-row" id="receiptDiscountRow" style="display: none;">
+              <span>Bulk Volume Rebate:</span>
+              <span id="receiptDiscountAmount" class="text-green">-₦0</span>
+            </div>
+            <div class="receipt-vat-row" id="receiptVatRow">
+              <span>Statutory VAT (7.5%):</span>
+              <span id="receiptVatAmount">₦0</span>
+            </div>
+            <div class="receipt-grand-total-row">
+              <div class="grand-label">
+                <span>Total Estimated Fee</span>
+                <small id="receiptCurrencyNote">Indicative commercial rate</small>
+              </div>
+              <div class="grand-amount" id="receiptGrandTotal">₦0</div>
+            </div>
+          </div>
+
+          <!-- Receipt Action Buttons -->
+          <div class="receipt-actions">
+            <button class="btn btn-gold btn-block" id="calcAddRfqBtn">
+              <i class="fa-solid fa-cart-plus"></i> Add Estimate to RFQ Basket
+            </button>
+            <div class="receipt-action-group">
+              <button class="btn btn-outline-white btn-sm" id="calcSendWhatsappBtn">
+                <i class="fa-brands fa-whatsapp"></i> WhatsApp Quote
+              </button>
+              <button class="btn btn-outline-white btn-sm" id="calcCopySummaryBtn">
+                <i class="fa-solid fa-copy"></i> Copy / Print
+              </button>
+              <button class="btn btn-outline-white btn-sm" id="calcResetBtn" title="Reset all calculator inputs">
+                <i class="fa-solid fa-rotate-left"></i> Reset
+              </button>
+            </div>
+          </div>
+
+          <div class="receipt-footer-note">
+            <i class="fa-solid fa-shield-halved"></i> Fixed price guaranteed for 72 hours upon formal RFQ submission. Delivery along Lagos-Ibadan corridor subject to fleet dispatch availability.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Smart AgriTech & Sustainability Section (ESG Standards)
+       ========================================================================== -->
+  <section class="sustainability-section" id="sustainability">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-badge dark"><i class="fa-solid fa-solar-panel"></i> Corporate ESG Standards</span>
+        <h2 class="section-title" style="color: var(--surface-white);">Smart Technology & Environmental Responsibility</h2>
+        <p class="section-subtitle" style="color: rgba(255, 255, 255, 0.75);">
+          Operating in alignment with the United Nations Sustainable Development Goals (SDG 2: Zero Hunger, SDG 12: Responsible Consumption).
+        </p>
+      </div>
+
+      <div class="sustainability-grid">
+        <div class="esg-card">
+          <div class="esg-icon-wrap"><i class="fa-solid fa-droplet"></i></div>
+          <h3 class="esg-title">Precision Drip Irrigation</h3>
+          <p class="esg-text">Automated soil moisture sensors deliver micro-doses of water directly to plant roots, eliminating water wastage by up to 65% compared to conventional furrow farming.</p>
+        </div>
+
+        <div class="esg-card">
+          <div class="esg-icon-wrap"><i class="fa-solid fa-solar-panel"></i></div>
+          <h3 class="esg-title">Solar Hybrid Energy Grid</h3>
+          <p class="esg-text">Over 600 kW of rooftop solar arrays power our cold storage rooms, borehole pumping networks, and automated poultry ventilations, sharply reducing carbon footprint.</p>
+        </div>
+
+        <div class="esg-card">
+          <div class="esg-icon-wrap"><i class="fa-solid fa-recycle"></i></div>
+          <h3 class="esg-title">Circular Bio-Economy</h3>
+          <p class="esg-text">Poultry litter and livestock manure undergo thermo-biological composting into pathogen-free organic fertilizer pellets, restoring soil organic matter naturally.</p>
+        </div>
+
+        <div class="esg-card">
+          <div class="esg-icon-wrap"><i class="fa-solid fa-users"></i></div>
+          <h3 class="esg-title">Local Community Empowerment</h3>
+          <p class="esg-text">Over 70% of our on-site workforce comprises talent from Ogun and Lagos border communities, supported by full healthcare, fair wages, and AgTech apprenticeship programs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Location & Arterial Logistics Map (Plot 1-6 Freedom Way)
+       ========================================================================== -->
+  <section class="location-section" id="location">
+    <div class="container location-grid">
+      <div class="location-card-styled">
+        <span class="section-badge dark" style="margin-bottom: 1.5rem;"><i class="fa-solid fa-route"></i> Prime Corridor Logistics</span>
+        
+        <div class="location-address-box">
+          <div class="location-marker-icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div>
+            <div class="location-address-title">Plot 1-6 Freedom Way</div>
+            <div class="location-address-text">
+              Off Lagos-Ibadan Expressway, Ogun / Lagos Border Agricultural Corridor, Nigeria.
+            </div>
+          </div>
+        </div>
+
+        <p style="font-size: 0.95rem; color: rgba(255, 255, 255, 0.85); line-height: 1.6; margin-bottom: 1.75rem;">
+          Our geographic location along Nigeria's most vital arterial trade route provides unprecedented supply-chain velocity:
+        </p>
+
+        <div class="transit-routes-list">
+          <div class="transit-route-item">
+            <div class="transit-destination">
+              <i class="fa-solid fa-truck-ramp-box"></i>
+              <span>Lagos Berger & Ikeja CBD</span>
+            </div>
+            <span class="transit-time">25 Mins Transit</span>
+          </div>
+
+          <div class="transit-route-item">
+            <div class="transit-destination">
+              <i class="fa-solid fa-road"></i>
+              <span>Sagamu Industrial Interchange</span>
+            </div>
+            <span class="transit-time">15 Mins Transit</span>
+          </div>
+
+          <div class="transit-route-item">
+            <div class="transit-destination">
+              <i class="fa-solid fa-city"></i>
+              <span>Ibadan City (Challenge / Tollgate)</span>
+            </div>
+            <span class="transit-time">45 Mins Transit</span>
+          </div>
+
+          <div class="transit-route-item">
+            <div class="transit-destination">
+              <i class="fa-solid fa-ship"></i>
+              <span>Apapa & Lekki Deep Sea Port Corridors</span>
+            </div>
+            <span class="transit-time">Direct Freight Arterial</span>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+          <a href="https://maps.google.com/?q=Freedom+Way+Lagos-Ibadan+Expressway+Nigeria" target="_blank" rel="noopener" class="btn btn-gold btn-sm">
+            <i class="fa-solid fa-diamond-turn-right"></i> Open in Google Maps
+          </a>
+          <a href="tel:+234800837722" class="btn btn-outline-white btn-sm">
+            <i class="fa-solid fa-phone"></i> Gate Security & Dispatch
+          </a>
+        </div>
+      </div>
+
+      <!-- Styled Map Visual Frame -->
+      <div class="map-visual-wrap">
+        <iframe 
+          title="TerraBloom Integrated Farms Location Map"
+          class="map-iframe"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126804.83296181679!2d3.3512341!3d6.7023192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b934b17f4058b%3A0xbcf2a8764032d847!2sLagos-Ibadan%20Expressway!5e0!3m2!1sen!2sng!4v1714000000000!5m2!1sen!2sng" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <div class="map-floating-pill">
+          <i class="fa-solid fa-circle-check" style="color: var(--accent-green-bright);"></i>
+          <span>Plot 1-6 Freedom Way • Direct Highway Access</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Executive Contact & Farm Visit Booking
+       ========================================================================== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-card-dual">
+        <!-- Left Panel: Direct Channels -->
+        <div class="contact-info-panel">
+          <div>
+            <div class="contact-info-header">
+              <span class="section-badge dark" style="margin-bottom: 1rem;"><i class="fa-solid fa-headset"></i> Executive Desk</span>
+              <h3>Engage with TerraBloom</h3>
+              <p>Whether procuring bulk harvests, booking an executive inspection tour, or exploring institutional off-take partnerships, our commercial team is at your disposal.</p>
+            </div>
+
+            <div class="direct-channels-list">
+              <div class="direct-channel">
+                <div class="channel-icon-circle"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="channel-details">
+                  <div class="label">Physical Address</div>
+                  <div class="val">Plot 1-6 Freedom Way, Lagos-Ibadan Expressway, Nigeria</div>
+                </div>
+              </div>
+
+              <div class="direct-channel">
+                <div class="channel-icon-circle"><i class="fa-solid fa-phone"></i></div>
+                <div class="channel-details">
+                  <div class="label">Direct Hotline</div>
+                  <div class="val">+234 (0) 800-TERRABLOOM / +234 803 123 4567</div>
+                </div>
+              </div>
+
+              <div class="direct-channel">
+                <div class="channel-icon-circle"><i class="fa-solid fa-envelope"></i></div>
+                <div class="channel-details">
+                  <div class="label">Corporate Email</div>
+                  <div class="val">desk@terrabloomfarms.ng / wholesale@terrabloomfarms.ng</div>
+                </div>
+              </div>
+
+              <div class="direct-channel">
+                <div class="channel-icon-circle"><i class="fa-brands fa-whatsapp" style="color: #25D366;"></i></div>
+                <div class="channel-details">
+                  <div class="label">WhatsApp Commercial Line</div>
+                  <div class="val">+234 803 333 3333 (Instant Response)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="font-size: 0.8rem; color: rgba(255, 255, 255, 0.6); border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 1rem;">
+            RC No. 1894231 • Federal Republic of Nigeria Corporate Affairs Commission
+          </div>
+        </div>
+
+        <!-- Right Panel: Contact & Visit Form -->
+        <div class="contact-form-panel">
+          <h3 style="font-size: 1.5rem; font-weight: 800; color: var(--text-dark); margin-bottom: 0.35rem;">Book a Farm Visit or Inquiry</h3>
+          <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1.5rem;">Fill out this brief form and our commercial office will confirm within 2 business hours.</p>
+
+          <form id="corporateInquiryForm">
+            <div class="form-grid-dual">
+              <div class="form-group">
+                <label class="form-label" for="clientName">Full Name / Representative *</label>
+                <input type="text" id="clientName" class="form-control" placeholder="e.g. Dr. Babatunde Adeleke" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="clientOrg">Organization / Enterprise</label>
+                <input type="text" id="clientOrg" class="form-control" placeholder="e.g. Apex Supermarkets / Hotel Group">
+              </div>
+            </div>
+
+            <div class="form-grid-dual">
+              <div class="form-group">
+                <label class="form-label" for="clientEmail">Corporate Email *</label>
+                <input type="email" id="clientEmail" class="form-control" placeholder="babatunde@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="clientPhone">Phone / WhatsApp Number *</label>
+                <input type="tel" id="clientPhone" class="form-control" placeholder="+234 800 000 0000" required>
+              </div>
+            </div>
+
+            <div class="form-grid-dual">
+              <div class="form-group">
+                <label class="form-label" for="inquiryType">Inquiry Type *</label>
+                <select id="inquiryType" class="form-control" required>
+                  <option value="">Select Category</option>
+                  <option value="wholesale">Wholesale Produce & Field Harvest Supply</option>
+                  <option value="tubers">Export Yams, Cassava & Sweet Potato Tubers</option>
+                  <option value="chicks">Day-Old & 2-Weeks Brooded Chicks</option>
+                  <option value="seeds">Certified Improved Seeds Procurement</option>
+                  <option value="consultation">Farm Setup & Technical Consultation</option>
+                  <option value="poultry">Poultry & Table Egg Contracts</option>
+                  <option value="livestock">Livestock / Cattle Ranching Procurement</option>
+                  <option value="visit">Schedule Executive Physical Farm Tour</option>
+                  <option value="investment">Corporate Investment / Outgrower Partnership</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="preferredDate">Preferred Date of Visit / Supply</label>
+                <input type="date" id="preferredDate" class="form-control">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="clientMessage">Detailed Specifications / Quantity Needed</label>
+              <textarea id="clientMessage" class="form-control" placeholder="Specify produce varieties, volume required (e.g. 200 crates of bell peppers weekly, 50 head of cattle), or tour group requirements..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <i class="fa-solid fa-paper-plane"></i> Transmit Corporate Inquiry
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Corporate Footer
+       ========================================================================== -->
+  <footer class="footer-corporate">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand Info -->
+        <div class="footer-col-brand">
+          <div class="footer-logo-card">
+            <img src="assets/logo.png" alt="TerraBloom Integrated Farms - Growing Nature. Raising Quality." class="footer-logo-img">
+          </div>
+          <p class="footer-brand-desc">
+            <strong>TerraBloom Integrated Farms Ltd.</strong> — <em>Growing Nature. Raising Quality.</em> A premier Nigerian agribusiness enterprise integrating high-tech greenhouse horticulture, field crops, commercial poultry, and certified livestock ranching.
+          </p>
+          <div style="display: flex; gap: 0.75rem;">
+            <a href="#" class="btn-icon" style="background: rgba(255,255,255,0.08); color: white;"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="btn-icon" style="background: rgba(255,255,255,0.08); color: white;"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" class="btn-icon" style="background: rgba(255,255,255,0.08); color: white;"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="btn-icon" style="background: rgba(255,255,255,0.08); color: white;"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Col 2: Core Divisions -->
+        <div>
+          <h4 class="footer-title">Farm Divisions</h4>
+          <ul class="footer-links-list">
+            <li><a href="#divisions"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i> Greenhouse Vegetables</a></li>
+            <li><a href="#divisions"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i> Commercial Field Crops</a></li>
+            <li><a href="#divisions"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i> Commercial Poultry & Eggs</a></li>
+            <li><a href="#divisions"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i> Cattle & Livestock Ranching</a></li>
+            <li><a href="#divisions"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i> Cold-Chain Reefer Logistics</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Quick Links & RFQ -->
+        <div>
+          <h4 class="footer-title">Commercial Desk</h4>
+          <ul class="footer-links-list">
+            <li><a href="#catalog"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i> Produce Price Index</a></li>
+            <li><a href="#catalog" class="trigger-rfq-modal"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i> Wholesale RFQ Builder</a></li>
+            <li><a href="#sustainability"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i> Sustainability & ESG</a></li>
+            <li><a href="#location"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i> Expressway Highway Map</a></li>
+            <li><a href="#contact"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i> Schedule Farm Tour</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Expressway Location Address -->
+        <div>
+          <h4 class="footer-title">Estate Headquarters</h4>
+          <p style="font-size: 0.88rem; line-height: 1.6; margin-bottom: 0.75rem; color: rgba(255,255,255,0.8);">
+            <strong>Plot 1-6 Freedom Way,</strong><br>
+            Lagos-Ibadan Expressway Corridor,<br>
+            Ogun / Lagos Border, Nigeria.
+          </p>
+          <div style="font-size: 0.85rem; color: var(--gold-light); display: flex; flex-direction: column; gap: 0.35rem;">
+            <div><i class="fa-solid fa-envelope"></i> desk@terrabloomfarms.ng</div>
+            <div><i class="fa-solid fa-phone"></i> +234 (0) 800-TERRABLOOM</div>
+            <div><i class="fa-brands fa-whatsapp"></i> +234 803 333 3333</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div>
+          &copy; 2026 TerraBloom Integrated Farms Ltd. All rights reserved. Registered in Nigeria (RC 1894231).
+        </div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="#" style="color: rgba(255,255,255,0.6);">Privacy Policy</a>
+          <a href="#" style="color: rgba(255,255,255,0.6);">Terms of Wholesale Supply</a>
+          <a href="#" style="color: rgba(255,255,255,0.6);">Biosecurity Protocol</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       Mobile-First Sticky Bottom Action Bar
+       (Visible only on mobile devices <= 768px for immediate 1-tap actions)
+       ========================================================================== -->
+  <div class="mobile-bottom-bar" role="navigation" aria-label="Mobile Quick Actions">
+    <a href="tel:+234800837722" class="mobile-bottom-item">
+      <i class="fa-solid fa-phone"></i>
+      <span>Call Desk</span>
+    </a>
+    <a href="https://wa.me/2348033333333?text=Hello%20TerraBloom%20Farms,%20I%20am%20inquiring%20about%20produce%20orders." class="mobile-bottom-item whatsapp-action" target="_blank" rel="noopener">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span>WhatsApp</span>
+    </a>
+    <button class="mobile-bottom-item quote-action trigger-rfq-modal">
+      <i class="fa-solid fa-file-invoice-dollar"></i>
+      <span>RFQ Cart</span>
+    </button>
+    <a href="#calculator" class="mobile-bottom-item">
+      <i class="fa-solid fa-calculator"></i>
+      <span>Calculator</span>
+    </a>
+    <a href="#location" class="mobile-bottom-item">
+      <i class="fa-solid fa-map-pin"></i>
+      <span>Location</span>
+    </a>
+  </div>
+
+  <!-- Desktop Floating WhatsApp Shortcut -->
+  <a href="https://wa.me/2348033333333?text=Hello%20TerraBloom%20Integrated%20Farms,%20I%20would%20like%20to%20make%20a%20wholesale%20produce%20inquiry." class="whatsapp-float-btn" target="_blank" rel="noopener" aria-label="Chat on WhatsApp" title="Direct WhatsApp Sales Desk">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- ==========================================================================
+       Wholesale RFQ Quote Modal & Drawer
+       ========================================================================== -->
+  <div class="rfq-modal-overlay" id="rfqModalOverlay">
+    <div class="rfq-modal-box">
+      <div class="rfq-modal-header">
+        <div class="rfq-modal-title">
+          <i class="fa-solid fa-receipt" style="color: var(--gold-primary); margin-right: 0.5rem;"></i>
+          Wholesale RFQ Basket
+        </div>
+        <button class="rfq-modal-close" id="rfqModalClose" aria-label="Close RFQ basket">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="rfq-modal-body">
+        <div class="rfq-items-list" id="rfqItemsList">
+          <!-- Rendered dynamically by JavaScript -->
+        </div>
+
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: 1.25rem 0; border-top: 2px dashed var(--border-medium); margin-top: 1rem;">
+          <span style="font-weight: 700; font-size: 1.05rem; color: var(--text-dark);">Estimated Total:</span>
+          <span style="font-family: var(--font-heading); font-size: 1.6rem; font-weight: 800; color: var(--primary);" id="rfqEstimatedTotal">₦0</span>
+        </div>
+
+        <p style="font-size: 0.78rem; color: var(--text-muted); margin-bottom: 1.5rem;">
+          * Prices are indicative wholesale farm-gate rates excluding haulage. Final invoice issued upon dispatch confirmation.
+        </p>
+
+        <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+          <button class="btn btn-gold" id="sendWhatsappRfqBtn" style="width: 100%;">
+            <i class="fa-brands fa-whatsapp" style="font-size: 1.25rem;"></i> Send Instant RFQ via WhatsApp
+          </button>
+          <button class="btn btn-primary" id="submitOfficialRfqBtn" style="width: 100%;">
+            <i class="fa-solid fa-file-contract"></i> Submit Official B2B Tender Request
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>
