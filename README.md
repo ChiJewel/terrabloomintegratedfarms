@@ -1,8 +1,12 @@
 # TerraBloom Integrated Farms — Corporate Agribusiness Web Platform
 
-> **Location:** Plot 1-6 Freedom Way, Off Lagos-Ibadan Expressway, Ogun/Lagos Border Corridor, Nigeria  
-> **Brand Identity:** Premium, Corporate & International Standard Agribusiness  
-> **Specialization:** Commercial Field Crops, High-Tech Greenhouse Horticulture, Bio-Secure Poultry & Certified Livestock Ranching  
+[![Live Production Website](https://img.shields.io/badge/Vercel-Live%20Website-success?style=for-the-badge&logo=vercel)](https://terrabloomintegratedfarms-one.vercel.app)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/ChiJewel/terrabloomintegratedfarms)
+
+> **🌐 Live Production Website:** [https://terrabloomintegratedfarms-one.vercel.app](https://terrabloomintegratedfarms-one.vercel.app)  
+> **📍 Location:** Plot 1-6 Freedom Way, Off Lagos-Ibadan Expressway, Ogun/Lagos Border Corridor, Nigeria  
+> **🏆 Brand Identity:** Premium, Corporate & International Standard Agribusiness  
+> **🌾 Specialization:** Commercial Field Crops, High-Tech Greenhouse Horticulture, Bio-Secure Poultry & Certified Livestock Ranching  
 
 ---
 
